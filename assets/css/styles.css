@@ -22,6 +22,7 @@
 body {
     padding-top: 76px; /* Adjusted for fixed navbar heigh */
     font-family: var(--primary-font);
+    background-color: #fffdd0;
 }
 h1, h2, h3 {
     font-family: var(--secondary-font);
@@ -39,6 +40,12 @@ h1, h2, h3 {
     width: 100%;
     height: 50vh;
     background-position: center center;
+}
+
+/* Common Issues section */
+
+#common-issues {
+    background-color: var(--highlight-color);
 }
 
 /* Styles to visualise structure */
