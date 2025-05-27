@@ -1,0 +1,13 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Quicksand:wght@300..700&display=swap');
+
+/* CSS Variables - fonts and colours (inspo taken from pinterest)*/
+:root {
+    --primary-font: 'DynaPuff', cursive;
+    --secondary-font: 'Quicksand', sans-serif;
+    --primary-color: #b3cee5; /* Blue */
+    --secondary-color: #afd9ae; /* Green */
+    --highlight-color: #ffcc99; /* Peach */
+    --highlight-color2: #c8a2c8; /* Purple */
+    --dark-text-color: #333; /*Dark Text Color */
+}
