@@ -11,3 +11,8 @@
     --highlight-color2: #c8a2c8; /* Purple */
     --dark-text-color: #333; /*Dark Text Color */
 }
+
+/* Navbar Styling */
+#navbar {
+    background-color: var(--secondary-color);
+}
