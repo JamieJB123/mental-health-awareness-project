@@ -3,8 +3,8 @@
 
 /* CSS Variables - fonts and colours (inspo taken from pinterest)*/
 :root {
-    --primary-font: 'DynaPuff', cursive;
-    --secondary-font: 'Quicksand', sans-serif;
+    --primary-font: 'Quicksand', sans-serif;
+    --secondary-font: 'DynaPuff', cursive;
     --primary-color: #b3cee5; /* Blue */
     --secondary-color: #afd9ae; /* Green */
     --highlight-color: #ffcc99; /* Peach */
@@ -21,6 +21,10 @@
 }
 body {
     padding-top: 76px; /* Adjusted for fixed navbar heigh */
+    font-family: var(--primary-font);
+}
+h1, h2, h3 {
+    font-family: var(--secondary-font);
 }
 
 /* Navbar Styling */
