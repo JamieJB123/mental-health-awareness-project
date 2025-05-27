@@ -12,6 +12,13 @@
     --dark-text-color: #333; /*Dark Text Color */
 }
 /* Global Styles */
+
+/* Wildcard selector to reset default styles added by the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     padding-top: 76px; /* Adjusted for fixed navbar heigh */
 }
