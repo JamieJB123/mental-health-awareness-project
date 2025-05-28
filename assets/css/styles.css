@@ -48,6 +48,13 @@ h1, h2, h3 {
     background-position: center center;
 }
 
+/* About Section */
+
+/* Negative margin to align text with top of image */
+.negative-margin {
+    margin-top: -0.4rem;
+}
+
 /* Common Issues section */
 
 #common-issues {
