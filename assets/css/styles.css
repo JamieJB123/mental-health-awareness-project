@@ -64,6 +64,78 @@ h1, h2, h3 {
     background-color: var(--secondary-color)
 }
 
+/* Tips Section */
+/* Grid messing */
+
+.tips-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    'one'
+    'two'
+    'three'
+    'four'
+    'five'
+    'six'
+}
+#one {
+    grid-area: one;
+}
+#two {
+    grid-area: two;
+}
+#three {
+    grid-area: three;
+}
+#four {
+    grid-area: four;
+}
+#five {
+    grid-area: five;
+}
+#six {
+    grid-area: six;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Media Queries */
+
+/* Media Query 768px and up */
+@media screen and (min-width: 768px) {
+    /* Creating desired grid layout */
+    .tips-grid {
+        grid-template-areas:
+        'one two'
+        'one three'
+        'four four'
+        'five six'
+    }
+        /* Override default bootstrap styling. Enables Bootstrap cards to expand to fill their grid space */
+    #tips .card {
+        flex: 1 1 auto;
+        /* !important tag was needed to override the inline width styling which had been set by Bootstrap and which was causing issues with the layout on larger screens */
+        width: auto !important;
+    }
+}
+
+/* Media Query 1024px and up*/
+ 
+@media screen and (min-width: 1024px) {
+    .tips-grid {
+        /* Creating desired grid layout */
+        grid-template-areas: 
+        'one one two three'
+        'four five six six'
+    }
+}
+    
+
 /* Styles to visualise structure */
 /* .col-12 {
     border: 2px solid black;
