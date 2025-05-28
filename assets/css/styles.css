@@ -20,7 +20,7 @@
     box-sizing: border-box;
 }
 body {
-    padding-top: 76px; /* Adjusted for fixed navbar heigh */
+    padding-top: 66px; /* Adjusted for fixed navbar height */
     font-family: var(--primary-font);
     background-color: #fffdd0;
 }
@@ -31,6 +31,12 @@ h1, h2, h3 {
 /* Navbar Styling */
 #navbar {
     background-color: var(--secondary-color);
+}
+/* Navbar Logo styling */
+.logo {
+    height: 40px; 
+    width: 40px;
+    border-radius: 50%;
 }
 
 /* Hero Section */
@@ -46,6 +52,9 @@ h1, h2, h3 {
 
 #common-issues {
     background-color: var(--highlight-color);
+}
+.card-body {
+    background-color: var(--secondary-color)
 }
 
 /* Styles to visualise structure */
