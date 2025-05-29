@@ -182,16 +182,11 @@ h1, h2, h3 {
         'one one two three'
         'four five six six'
     }
-}
+    /* Resources Layout */
 
-/* Media Query 1200px and up */
-
-/* Resources Layout */
-
-@media screen and (min-width: 1200px) {
     /* Display items in a row */
     #support {
-        display: flex;
+    display: flex;
     }
     /* Ensure image goes in middle */
     #accordion-b {
@@ -203,6 +198,7 @@ h1, h2, h3 {
         padding-top: 18%;
     }
 }
+
 
 /* Styles to visualise structure */
 /* .col-12 {
