@@ -63,6 +63,16 @@ h1, h2, h3 {
     /* To keep image center-aligned on smaller screens */
     background-position: 46%;
 }
+#hero p {
+    font-weight: 600;
+}
+#hero .row {
+    min-width: 50%;
+}
+hr {
+    border: solid 1px var(--dark-text-color);
+    opacity: 1;
+}
 
 /* About Section */
 
