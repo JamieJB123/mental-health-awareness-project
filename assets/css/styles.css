@@ -66,7 +66,12 @@ h1, h2, h3 {
 }
 
 /* Tips Section */
+
 /* CSS Grid to control layout */
+
+#tips {
+    background-color: var(--primary-color);
+}
 
 .tips-grid {
     display: grid;
@@ -104,6 +109,32 @@ h1, h2, h3 {
     justify-content: center;
 }
 
+#tips .card-body {
+    background-color: var(--highlight-color2);
+}
+
+/* Resources Section */
+
+/* image */
+
+#circle-image {
+    background-image: url(../images/resources.png);
+    background-size: cover;
+    background-position: 75%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 90vw;
+    height: 90vh;
+    max-height: 300px;
+    max-width: 300px;
+}
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem
+}
+
 
 /* Media Queries */
 
@@ -123,10 +154,27 @@ h1, h2, h3 {
         /* !important tag was needed to override the inline width styling which had been set by Bootstrap and which was causing issues with the layout on larger screens */
         width: auto !important;
     }
+
+    /* Styling layout of accordions for Resources Section */
+
+    /* Enable flex control for layout and create spacing */
+    #accordion-a, #accordion-b {
+        display: flex; 
+        flex-direction: column;
+        width: 100%;
+        margin: 2rem 0;
+    }
+    /* Visual Purposes */
+    .accordion {
+        width: 80%;
+    }
+    #accordion-b .accordion {
+        align-self: flex-end;
+    }
 }
 
 /* Media Query 1024px and up*/
- 
+
 @media screen and (min-width: 1024px) {
     .tips-grid {
         /* Creating desired grid layout */
@@ -135,7 +183,26 @@ h1, h2, h3 {
         'four five six six'
     }
 }
-    
+
+/* Media Query 1200px and up */
+
+/* Resources Layout */
+
+@media screen and (min-width: 1200px) {
+    /* Display items in a row */
+    #support {
+        display: flex;
+    }
+    /* Ensure image goes in middle */
+    #accordion-b {
+        order: 2;
+    }
+    /* Override previous media query to expand accordion's and align them */
+    .accordion {
+        width: 90%;
+        padding-top: 18%;
+    }
+}
 
 /* Styles to visualise structure */
 /* .col-12 {
