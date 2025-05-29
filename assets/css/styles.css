@@ -115,6 +115,16 @@ h1, h2, h3 {
 
 /* Resources Section */
 
+.accordion-button {
+    background-color: var(--primary-color);
+}
+.accordion-button:hover {
+    background-color: #4782b6;
+}
+.accordion-body {
+    background-color: var(--highlight-color)
+}
+
 /* image */
 
 #circle-image {
