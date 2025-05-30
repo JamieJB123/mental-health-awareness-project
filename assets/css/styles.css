@@ -76,15 +76,27 @@ h1, h2, h3 {
     /* To keep image center-aligned on smaller screens */
     background-position: 46%;
 }
+#hero .container {
+    background-color: rgba(175, 217, 174, 0.8);
+    border-radius: 5%;
+    color: var(--dark-text-color);
+}
 #hero p {
     font-weight: 600;
-}
-#hero .row {
-    min-width: 50%;
 }
 hr {
     border: solid 1px var(--dark-text-color);
     opacity: 1;
+}
+.btn-outline-secondary {
+    border: 2px solid var(--dark-text-color);
+    color: var(--dark-text-color);
+    font-weight: bold;
+}
+.btn-outline-secondary:hover {
+    background-color: var(--highlight-color2);
+    border: 2px solid var(--highlight-color2);
+    color: #4782b6;
 }
 
 /* ------------------------------------------ About Section */
