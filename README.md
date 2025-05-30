@@ -30,3 +30,25 @@ All images in this project were AI generated using [Microsoft Copilot](https://c
 1. Avoid any possible copyright issues.
 2. The colour palette was chosen before images. Therefore, using AI made it more straightforward to find images coherent with the colour scheme.
 3. I did not want photorealistic images and feeding AI prompts enabled image-generation in keeping with the playful feel I was aiming for.
+
+### Wireframes:
+
+The basic structure of Healthy Mind was worked out using the software [BALSAMIQ](https://balsamiq.com/?gad_source=1&gad_campaignid=203404003&gbraid=0AAAAAD3BuzMO_b68z_FDD6MbtQx7bQ_6V&gclid=CjwKCAjwruXBBhArEiwACBRtHYXoWEdqjT_KJt9p8mXI8IdiipWikWrlgDIK9-gS3FKGd6jtQpN4qxoCpiQQAvD_BwE), to guide my development choices when coding. Over the project the vision for the layout changed and new sections were incorporated. An updated set of wireframes were created to reflect this. I have included both the original wireframes and the updated wireframes for comparison. 
+
+#### Desktop: 
+
+- [Wireframe 1: Hero, About, Common Issues](assets/readme-documentation/updated-wireframes/desktopwireframe1.png)
+- [Wireframe 2: Tips, Resources](assets/readme-documentation/updated-wireframes/desktopwireframe2.png)
+    - [~~Initial Wireframe~~](assets/readme-documentation/initial-wireframe/desktop-initial-wireframe.png)
+
+#### Tablet:
+
+- [Wireframe 1: Hero, About, Common Issues](assets/readme-documentation/updated-wireframes/tabletwireframe1.png)
+- [Wireframe 2: Tips, Resources](assets/readme-documentation/updated-wireframes/tabletwireframe2.png)
+    - [~~Initial Wireframe~~](assets/readme-documentation/initial-wireframe/tablet-initial-wireframe.png)
+
+#### Mobile: 
+
+- [Wireframe 1: Home, About, Common Issues](assets/readme-documentation/updated-wireframes/mobilewireframe1.png)
+- [Wireframe 2: Tips, Resources, Contact](assets/readme-documentation/updated-wireframes/mobilewireframe2.png)
+    - [~~Initial Wireframe~~](assets/readme-documentation/initial-wireframe/mobile-initial-wireframe.png)
