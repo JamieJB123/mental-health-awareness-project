@@ -196,6 +196,32 @@ hr {
     margin-top: 2rem
 }
 
+/* ------------------------------------------- Contact Us */
+
+/* Styling Contact Section */
+#contact {
+    background-color: var(--highlight-color);
+    border-radius: 5%;
+}
+#contact label {
+    font-weight: bold;
+}
+#contact input, #contact textarea {
+    background-color: rgb(208, 221, 233);
+}
+/* Button Styles */
+/* Center Button */
+.contact-button {
+    display: block;
+    margin: auto;
+}
+/* Hover animation */
+.contact-button:hover {
+    background-color: var(--dark-text-color);
+    color: var(--highlight-color);
+    border: var(--dark-text-color);
+}
+
 /* ------------------------------------------- Footer */
 
 #footer {
