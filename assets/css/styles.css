@@ -32,7 +32,7 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
 }
 
-/* Navbar Styling */
+/* ------------------------------------------ Navbar */
 #navbar {
     background-color: var(--secondary-color);
 }
@@ -42,19 +42,32 @@ h1, h2, h3 {
     width: 40px;
     border-radius: 25%;
 }
+/* Style navbar brand */
+.navbar-brand {
+    transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.navbar-brand:hover {
+    color: var(--highlight-color2);
+}
+.navbar-brand:active {
+    border: 2px dashed var(--highlight-color2);
+    border-radius: 20%;
+}
+/* Style navbar links */
 .navbar-nav .nav-link {
     color: var(--dark-text-color);
-    transition: color 0.5s ease-in-out, border 0.5s ease-in-out;
+    transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
     border-radius: 50%;
 }
 .navbar-nav .nav-link:hover {
-    color: #4782b6;
+    color: var(--highlight-color2);
 }
 .navbar-nav .nav-link:active {
-    box-shadow: 2px 2px 5px #134c7d;
+    border: 2px dashed var(--highlight-color2);
+    border-radius: 20%;
 }
 
-/* Hero Section */
+/* -------------------------------------------------- Hero Section */
 #hero {
     background-image: url(../images/resizedhero.png);
     background-size: cover;
@@ -74,14 +87,14 @@ hr {
     opacity: 1;
 }
 
-/* About Section */
+/* ------------------------------------------ About Section */
 
 /* Negative margin to align text with top of image */
 .negative-margin {
     margin-top: -0.4rem;
 }
 
-/* Common Issues section */
+/* ----------------------------------------- Common Issues section */
 
 #common-issues {
     background-color: var(--highlight-color);
@@ -90,7 +103,7 @@ hr {
     background-color: var(--secondary-color)
 }
 
-/* Tips Section */
+/* --------------------------------------------- Tips Section */
 
 /* CSS Grid to control layout */
 
@@ -133,13 +146,14 @@ hr {
     display: flex;
     justify-content: center;
 }
-
+/* Style cards */
 #tips .card-body {
     background-color: var(--highlight-color2);
 }
 
-/* Resources Section */
+/* ------------------------------------------ Resources Section */
 
+/* Style accordions */
 .accordion-button {
     background-color: var(--primary-color);
 }
@@ -170,12 +184,52 @@ hr {
     margin-top: 2rem
 }
 
+/* ------------------------------------------- Footer */
 
-/* Media Queries */
+#footer {
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+#footer .footer-text * {
+    margin-bottom: 0.5rem;
+}
+/* Override Bootstrap styling which was preventing copyright info and social links spacing */
+#footer .row > * {
+    flex-shrink: 1;
+    width: auto;
+}
+.copyright {
+    font-size: small;
+}
+/* Enable layout styling of social links */
+#footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    min-width: 10rem;
+}
+/* Style social links */
+#footer ul a {
+    color: var(--dark-text-color);
+    font-size: 2rem;
+    transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+#footer ul a:hover {
+    color: var(--highlight-color2);
+}
+#footer ul a:active {
+    border: 2px dashed var(--highlight-color2);
+    border-radius: 20%;
+}
 
-/* Media Query 768px and up */
+/* ------------------------------------------- Media Queries */
+
+/* ------------------------------------------- 768px and up */
+
 @media screen and (min-width: 768px) {
-    /* Creating desired grid layout */
+    /* Tips Section - Desired grid layout */
     .tips-grid {
         grid-template-areas:
         'one two'
@@ -190,7 +244,7 @@ hr {
         width: auto !important;
     }
 
-    /* Styling layout of accordions for Resources Section */
+    /* Resources Section - layout styling of accordions */
 
     /* Enable flex control for layout and create spacing */
     #accordion-a, #accordion-b {
@@ -208,7 +262,7 @@ hr {
     }
 }
 
-/* Media Query 1024px and up*/
+/* ------------------------------------------ 1024px and up*/
 
 @media screen and (min-width: 1024px) {
     .tips-grid {
@@ -233,17 +287,4 @@ hr {
         padding-top: 18%;
     }
 }
-
-
-/* Styles to visualise structure */
-/* .col-12 {
-    border: 2px solid black;
-}
-.row {
-    border: 2px dashed blue;
-}
-#hero {
-    border: 2px dotted green;
-} */
-
 
