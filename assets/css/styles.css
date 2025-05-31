@@ -32,15 +32,7 @@ body {
     flex-direction: column;
     height: 100vh;
 }
-#success {
-    /* To push footer down */
-    flex-grow: 1;
-    /* To center content */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--highlight-color)
-}
+
 h1, h2, h3 {
     font-family: var(--secondary-font);
 }
@@ -273,6 +265,17 @@ hr {
 #footer ul a:active {
     border: 2px dashed var(--highlight-color2);
     border-radius: 20%;
+}
+
+/* ------------------------------------------- Success Page */
+#success {
+    /* To push footer down */
+    flex-grow: 1;
+    /* To center content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--highlight-color);
 }
 
 /* ------------------------------------------- Media Queries */

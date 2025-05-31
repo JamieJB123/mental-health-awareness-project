@@ -313,7 +313,7 @@
                 </div>
             </section>
         </main>
-        
+
         <!-- Footer -->
         <footer id="footer" class="mt-auto">
             <div class="container py-4">
@@ -351,21 +351,12 @@
             document
                 .querySelectorAll(".navbar-collapse .nav-link")
                 .forEach((link) => {
-                    link.addEventListener("click", function (e) {
-                        let section = document.querySelector(e.target.getAttribute("href"));
-                        if (section) {
-                            e.preventDefault(); // Prevent default anchor click behavior
-                            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                            window.scroll({
-                                top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                                behavior: "smooth",
-                            });
+                    link.addEventListener("click", function () {
                             document
                                 .querySelector(".navbar-collapse")
                                 .classList.remove("show"); // Collapse navbar
-                        }
+                        })
                     });
-                });
         </script>
     </body>
 </html>
