@@ -224,7 +224,7 @@ hr {
 .contact-button:hover {
     background-color: var(--dark-text-color);
     color: var(--highlight-color);
-    border: var(--dark-text-color);
+    border: 2px solid var(--dark-text-color);
 }
 
 /* ------------------------------------------- Footer */
@@ -276,6 +276,15 @@ hr {
     align-items: center;
     justify-content: center;
     background-color: var(--highlight-color);
+}
+/* Blue background-circle */
+#success .row {
+    background-color: var(--primary-color);
+    padding: 15% 0;
+    border-radius: 50%;
+}
+#success p {
+    font-weight: bold;
 }
 
 /* ------------------------------------------- Media Queries */
