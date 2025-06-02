@@ -192,6 +192,18 @@ When running lighhouse tests, I used an incognito window to avoid any possible i
 
         The success page was a simple HTML page and the lighthouse report was good. No improvements required.
 
+##Bugs & Fixes
+
+### Combining CSS grid with Bootstrap cards:
+    One key issue encountered during development involved combining CSS Grid with Bootstrap cards. The cards were not expanding to fill the space assigned to them within the grid layout. This led to inconsistent spacing and a broken visual structure.
+
+    To diagnose the issue, I used the AI chat embedded within DevTools, which helped me examine the relevant code and pinpoint the root cause. The problem stemmed from Bootstrap’s default flex properties, which were overriding the expected grid behavior.
+
+    The solution involved overriding Bootstrap’s defaults with custom CSS to ensure that the cards expanded correctly within the grid. This resolved the layout issue and improved the responsiveness and consistency of the design.
+
+### Browser Scroll Behaviour
+    I encountered an issue where scroll-padding-top—used to prevent the fixed navbar from overlapping content during internal navigation—suddenly stopped working. I had also added custom JavaScript (borrowed from a previous project) to collapse the Bootstrap navbar toggler on internal link clicks. Using Microsoft Copilot in VS Code, I investigated the issue and identified that the custom JavaScript was overriding the browser’s default scroll behavior. By isolating and testing parts of the script, I was able to remove the conflicting code while preserving the intended navbar collapse functionality.
+
 ## Credits
 
 - [Stack Overflow](https://stackoverflow.com/questions) to explore certain problems and get ideas about the issue.
