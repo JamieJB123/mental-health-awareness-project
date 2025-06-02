@@ -240,6 +240,13 @@ hr {
     flex-shrink: 1;
     width: auto;
 }
+/* Text Styling */
+/* Mimic Header to preserve semantic HTML */
+.header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
 .copyright {
     font-size: small;
 }
