@@ -12,7 +12,7 @@
 
 The purpose of this website is to enable external users to discover accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout. As a site owner, the site is designed to create a welcoming space that offers approachable and basic mental health information using a clean and supportive design. 
 
-The website was created with an awareness of the context surrounding mental health and an appreciation that it can be a daunting and overwhelming task to find simple and easily digestable information. Therefore, every decision was guided by the idea that this site could be used to simplify the landscape a bit, as a first 'port of call' to enable users to orient themselves a bit.
+The website was created with an awareness of the context surrounding mental health and an appreciation that it can be a daunting and overwhelming task to find simple and easily digestable information. Therefore, every decision was guided by the idea that this site could be used to simplify the landscape a bit, as a non-exhaustive first 'port of call' to enable users to get their bearings without drowning in information.
 
 The website has been built using HTML, CSS and Bootstrap. Google Fonts and Font Awesome were also used. 
 
