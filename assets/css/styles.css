@@ -241,7 +241,7 @@ hr {
     width: auto;
 }
 /* Text Styling */
-/* Mimic Header to preserve semantic HTML */
+/* Mimic h4 style to preserve semantic HTML */
 .header {
     font-size: 1.5rem;
     font-weight: 500;
