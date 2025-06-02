@@ -183,7 +183,7 @@ hr {
 /* image */
 
 #circle-image {
-    background-image: url(../images/resources.webp.webp);
+    background-image: url(../images/resources.webp);
     background-size: cover;
     background-position: 75%;
     background-repeat: no-repeat;
