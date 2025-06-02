@@ -100,8 +100,20 @@ When running lighhouse tests, I used an incognito window to avoid any possible i
     - Desktop
         - [Lighhouse test 1](assets/readme-documentation/lighthouse-report1.png) 
         - [Lighthouse test 2](assets/readme-documentation/lighthouse-report2.png)
-        - Originally the performance  and accessibility scores were lower than ideal. 
+        - Originally the performance and accessibility scores were lower than ideal. 
         
         To address performance, Lighthouse recommended reformatting images into 'next-gen' formats (e.g. webP or AVIF) and properly sizing images. Images were resized using an [image resizer tool](https://www.img2go.com/resize-image) and were converted to webP using an [image converter tool](https://cloudinary.com/tools/png-to-webp). This resolved the performance issues.
         
         To address accessibility, Lighthouse highlighted that the buttons didn't have accessible names and the heading elements were not sequentially-descending. Unnecessary buttons were removed from the page, the page was scanned with co-pilot for accessibility improvements (and aria-labels were added), and the ```<h4>``` element in the footer was replaced with a ```<p>```element styled as a header. This resolved the accessibility issues. 
+    - Mobile 
+        - [Lighthouse test](assets/readme-documentation/index-mobile-lighthouse-report.png)
+
+        Performance could have been improved by resizing images specifically for mobile (as they had been resized for largest viewport) and reducing largest contentful paint. However, the performance was still acceptable and, given the scope of this project, I decided that I would leave it for now. 
+- success.html 
+    - Desktop
+        - [Lighthouse test](assets/readme-documentation/success-desktop-lighthouse-report.png)
+    - Mobile 
+        - [Lighthouse test](assets/readme-documentation/success-mobile-lighthouse-report.png)
+
+        The success page was a simple HTML page and the lighthouse report was good. No improvements required.
+
