@@ -192,7 +192,7 @@ When running lighhouse tests, I used an incognito window to avoid any possible i
 
         The success page was a simple HTML page and the lighthouse report was good. No improvements required.
 
-##Bugs & Fixes
+## Bugs & Fixes
 
 ### Combining CSS grid with Bootstrap cards:
 One key issue encountered during development involved combining CSS Grid with Bootstrap cards. The cards were not expanding to fill the space assigned to them within the grid layout. This led to inconsistent spacing and a broken visual structure.
