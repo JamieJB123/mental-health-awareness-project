@@ -73,3 +73,35 @@ The basic structure of Healthy Mind was worked out using the wireframe software 
 - [Coolors](https://coolors.co/)
 - [Pinterest](https://uk.pinterest.com/)
 - [Stack Overflow](https://try.stackoverflow.co/get-teams/?utm_source=adwords&utm_medium=ppc&utm_campaign=kb_teams_search_brand_emea-dach&_bt=657236278306&_bk=stack+overflow&_bm=p&_bn=g&gad_source=1&gad_campaignid=10618329760&gbraid=0AAAAADlO0L1YSj_Ax7ln3HiA8-oM9nEWP&gclid=CjwKCAjwruXBBhArEiwACBRtHc83drtdIp0m7bMM_Ic-Al4NFRQfCG4HOKmsIk1dWiAjrPGmGlD3UxoCNCcQAvD_BwE)
+
+## Testing
+
+For testing, I made use of multiple resources: HTML and CSS validators, Chrome Dev Tools Lighthouse tests, thorough user testing, and WAVE accessibility evaluation tools. Errors and bugs found during the testing stage will be noted in the Bugs and Fixes section.
+
+### Tests
+
+[HTML Validator](https://validator.w3.org/)
+
+All HTML pages have been tested with the w3c validator and passed with no errors. 
+
+![HTML validator results](assets/readme-documentation/html-validation.png)
+
+[Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+Stylesheet has been passed through the CSS validator and passed with no errors. 
+
+![CSS validator results](assets/readme-documentation/css-validator.png)
+
+[Chrome Dev Tools - Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+
+When running lighhouse tests, I used an incognito window to avoid any possible interference in the results from my Chrome extensions. 
+
+- index.html 
+    - Desktop
+        - [Lighhouse test 1](assets/readme-documentation/lighthouse-report1.png) 
+        - [Lighthouse test 2](assets/readme-documentation/lighthouse-report2.png)
+        - Originally the performance  and accessibility scores were lower than ideal. 
+        
+        To address performance, Lighthouse recommended reformatting images into 'next-gen' formats (e.g. webP or AVIF) and properly sizing images. Images were resized using an [image resizer tool](https://www.img2go.com/resize-image) and were converted to webP using an [image converter tool](https://cloudinary.com/tools/png-to-webp). This resolved the performance issues.
+        
+        To address accessibility, Lighthouse highlighted that the buttons didn't have accessible names and the heading elements were not sequentially-descending. Unnecessary buttons were removed from the page, the page was scanned with co-pilot for accessibility improvements (and aria-labels were added), and the ```<h4>``` element in the footer was replaced with a ```<p>```element styled as a header. This resolved the accessibility issues. 
