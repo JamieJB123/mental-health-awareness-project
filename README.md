@@ -8,6 +8,32 @@
 
 **This project was developed as part of my 16-week full-stack development bootcamp with Code Institute. It brings together what we have learned from the front-end side of the course: HTML and CSS essentials + Bootstrap.**
 
+## Purpose: 
+
+The purpose of this website is to enable external users to discover accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout. As a site owner, the site is designed to create a welcoming space that offers approachable and basic mental health information using a clean and supportive design. 
+
+The website was created with an awareness of the context surrounding mental health and an appreciation that it can be a daunting and overwhelming task to find simple and easily digestable information. Therefore, every decision was guided by the idea that this site could be used to simplify the landscape a bit, as a first 'port of call' to enable users to orient themselves a bit.
+
+The website has been built using HTML, CSS and Bootstrap. Google Fonts and Font Awesome were also used. 
+
+## Features: 
+
+### Current Features
+
+- Navigation 
+- About Section 
+- Common Issues section
+- Tools and Tips section
+- Resources section 
+- Contact Form 
+    - and Success Page
+- Footer
+
+### Future Features 
+- Carousel of positive affirmations / inspiring quotes
+- 'Daily mood check-in' section
+- Interactive quiz for insight into stress levels with encouraging feedback tailored to quiz results
+
 ## Deployment 
 
 ### GitHub pages
@@ -24,6 +50,32 @@ The steps to deploy via GitHub pages are as follows:
 6. Click 'Save'.
 7. Refresh the page (this can take a few moments), and you will be prompted with a URL to your deployed site at the top of the page.
 8. Click 'Visit site' to open the deployed site in a new tab.
+
+### How to view the Project:
+
+- [View the deployed site](https://jamiejb123.github.io/mental-health-awareness-project/)
+
+## AI Use
+
+### Uses:
+
+- Expand / refine user stories into tasks and acceptance criteria
+- Content generation: the images and much of the copy
+- Used to generate some of the meta content
+- To assist with problem-solving / bug fixes
+- Code review and optimisation - particularly in relation to semantics and accessibility
+
+### AI Usage Reflection
+
+AI played a supportive but carefully managed role throughout the development of the ••Healthy Mind•• website. During the initial ideation phase, AI was used to expand and refine user stories, suggesting additional tasks, features, and acceptance criteria. These ideas were always critically assessed for relevance and alignment with the project goals.
+
+Although I deliberately chose to write all the HTML and CSS independently to strengthen my own understanding, AI was used strategically for specific tasks where it added value. For example, once the site structure was in place, AI proved highly effective for content generation — e.g. generating imagery, logos, and copy. 
+
+Problem-solving was another key area where AI was valuable. When I encountered specific bugs, AI tools such as Copilot in VS Code and browser DevTools AI chat provided helpful insights. Rather than asking for full solutions, I used AI to explore the problem space and identify potential causes, which helped me better understand the issues and decide on appropriate fixes.
+
+Finally, AI was used to review and optimise my code for accessibility and semantic clarity. Some suggestions were useful but others were irrelevant, so each had to be reviewed on a case by case basis.
+
+In summary, AI was a valuable tool for idea generation, content support, problem-solving, and code refinement. However, it was not a replacement for understanding. Developmental control remained firmly with me throughout, and the project benefited most when AI was used as a collaborative assistant rather than a solution provider.
 
 ## Design Choices:
 
@@ -140,3 +192,9 @@ When running lighhouse tests, I used an incognito window to avoid any possible i
 
         The success page was a simple HTML page and the lighthouse report was good. No improvements required.
 
+## Credits
+
+- [Stack Overflow](https://stackoverflow.com/questions) to explore certain problems and get ideas about the issue.
+- [Kevin Powell](https://www.youtube.com/@KevinPowell) for helping me understand CSS grid so that I could incorporate it in my project.
+- [W3Schools](https://www.w3schools.com/) and [MDN WebDocs](https://developer.mozilla.org/en-US/) were a major resource for answering questions and figuring out problems.
+- [Code Institute](https://codeinstitute.net/) for providing a supportive learning environment, great resources and great tuition.
