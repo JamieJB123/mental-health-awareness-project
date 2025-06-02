@@ -8,6 +8,23 @@
 
 **This project was developed as part of my 16-week full-stack development bootcamp with Code Institute. It brings together what we have learned from the front-end side of the course: HTML and CSS essentials + Bootstrap.**
 
+## Deployment 
+
+### GitHub pages
+
+For a live preview of the site, the code has been deployed via GitHub pages, this has been done at the start of the project to implement device testing as the build progresses.
+
+The steps to deploy via GitHub pages are as follows:
+
+1. Log into Github account.
+2. Navigate to the Repository.
+3. Click the 'Settings' option at the top of the repository.
+4. Click the 'Pages' option on the left-hand menu, located near the bottom.
+5. Within the 'Build and Deployment' section, select the drop-down titled 'None' under 'Branch' and select 'Main'.
+6. Click 'Save'.
+7. Refresh the page (this can take a few moments), and you will be prompted with a URL to your deployed site at the top of the page.
+8. Click 'Visit site' to open the deployed site in a new tab.
+
 ## Design Choices:
 
 ### Colours: 
@@ -88,9 +105,15 @@ All HTML pages have been tested with the w3c validator and passed with no errors
 
 [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-Stylesheet has been passed through the CSS validator and passed with no errors. 
+Stylesheet has been passed through the CSS validator and passed with no errors.
 
 ![CSS validator results](assets/readme-documentation/css-validator.png)
+
+[WAVE Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+Page was accessibility evaluated with WAVE accessibility evaluation tool. There were no errors or contrast errors, but one alert was produced related to the footer text which was styled like a header but did not use a heading element. This was ignored because it was an intentional choice related to accessibility (i.e. maintaining the sequentially-descending order of headings in the document).
+
+![WAVE accessibility results](assets/readme-documentation/wave-accessibility-test.png)
 
 [Chrome Dev Tools - Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 
